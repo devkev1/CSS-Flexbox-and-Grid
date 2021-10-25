@@ -99,3 +99,16 @@ body {
     border-bottom: 3px solid black;
     border-right: 3px solid black;
 }
+
+@media screen and (max-width: 600px) {.wrapper div {
+    width: 100vw;
+    height: 100vw;
+}
+    }
+
+
+@media screen and (max-width: 600px) {.wrapper div > div {
+    width: 100vw;
+    height: 100vw;
+}
+    }
