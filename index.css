@@ -27,7 +27,7 @@ body {
     text-align: center;
 }
 
-.wrapper div {
+div.wrapper {
     width: 800px;
     height: 800px;
     display: grid;
@@ -105,7 +105,6 @@ body {
     height: 100vw;
 }
     }
-
 
 @media screen and (max-width: 600px) {.wrapper div > div {
     width: 100vw;
